@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('http://localhost:5278/api/invoice')
+    fetch('http://localhost:5000/api/invoice')
         .then(response => response.json())
         .then(data => {
             let html = '<ul>';
